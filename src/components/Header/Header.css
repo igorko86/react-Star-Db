@@ -1,0 +1,41 @@
+.header{
+  max-width: 980px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+}
+.header h1{
+    margin-left: 2%;
+  width: 30%;
+  min-width: 200px;
+
+}
+.header h1 a{
+  text-decoration: none;
+  color: white;
+}
+.header h1 a:hover{
+  color: green;
+}
+.header .ul{
+
+  margin-left: 2%;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center
+}
+.ul li{
+    margin-left: 2%;
+  list-style-type:none;
+}
+.ul li a{
+    margin-left: 2%;
+      padding-left: 2%;
+      text-decoration: none;
+}
+.ul li a:hover{
+  color: white;
+}
